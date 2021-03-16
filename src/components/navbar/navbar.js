@@ -1,5 +1,6 @@
 import './navbar.css';
 import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
 
@@ -7,37 +8,75 @@ const Header = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-light header">
                 <Link to="/" className="navbar-brand naslov">
-                    FK MUNAJ BARIČ
+                    ФК МУЊА БАРИЧ
                 </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <a className="nav-link nav-link-ime" href="#">Takmičenja <span className="sr-only">(current)</span></a>
+                    <NavLink
+                        exact
+                        activeClassName="navbar__link--active"
+                        className="nav-link nav-link-ime"
+                        to="/"
+                    >
+                    Клуб
+                    </NavLink>
+                    <NavLink
+                        exact
+                        activeClassName="navbar__link--active"
+                        className="nav-link nav-link-ime"
+                        to="/oklubu"
+                    >
+                    Такмичења
+                    </NavLink>
+                    <NavLink
+                        exact
+                        activeClassName="navbar__link--active"
+                        className="nav-link nav-link-ime"
+                        to="/galerija"
+                    >
+                    Галерија
+                    </NavLink>
+                    <NavLink
+                        exact
+                        activeClassName="navbar__link--active"
+                        className="nav-link nav-link-ime"
+                        to="/kids"
+                    >
+                    Муња деца
+                    </NavLink>
+                    <NavLink
+                        exact
+                        activeClassName="navbar__link--active"
+                        className="nav-link nav-link-ime"
+                        to="/shop"
+                    >
+                    Муња продавница
+                    </NavLink>
+
+                        {/*<li className="nav-item">
+                            <a className="nav-link nav-link-ime active" href="#oklubu">Клуб</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link nav-link-ime" href="#">Tim</a>
+                            <a className="nav-link nav-link-ime" href="#">Такмичења</a>
                         </li>
                         <li className="nav-item">
                             <Link to="/galerija" className="nav-link nav-link-ime">
-                                Galerija
+                                Галерија
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/kids" className="nav-link nav-link-ime">
-                                Munja KIDS
+                                Муња деца
                             </Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/shop" className="nav-link nav-link-ime">
-                                Munja SHOP
+                                Муња продавница
                             </Link>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link nav-link-ime" href="#">Kontakt</a>
-                        </li>
+                        </li>*/}
                     </ul>
                 </div>
             </nav>

@@ -1,7 +1,7 @@
 import './galerija.css';
 
 const Galerija = () => {
-
+    
     return (
         <div>
             Galerija

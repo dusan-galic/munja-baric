@@ -12,3 +12,12 @@ nav.header {
 a.nav-link-ime {
     color: #000000 !important;
 }
+
+a.nav-link:hover {
+    font-weight: bold;
+}
+
+.navbar__link--active {
+   border-bottom: 3px solid #000000;
+   font-weight: bold;
+}
