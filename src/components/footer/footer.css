@@ -1,0 +1,17 @@
+div.footer_d {
+    background-color:white;
+}
+
+div.autor {
+    background-color: rgb(71, 77, 77);
+}
+
+div.text-center {
+    color: white;
+    padding-top: 50px;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
