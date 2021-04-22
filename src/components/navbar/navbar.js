@@ -27,14 +27,6 @@ const Header = () => {
                         exact
                         activeClassName="navbar__link--active"
                         className="nav-link nav-link-ime"
-                        to="/oklubu"
-                    >
-                    Такмичења
-                    </NavLink>
-                    <NavLink
-                        exact
-                        activeClassName="navbar__link--active"
-                        className="nav-link nav-link-ime"
                         to="/galerija"
                     >
                     Галерија
@@ -45,7 +37,7 @@ const Header = () => {
                         className="nav-link nav-link-ime"
                         to="/kids"
                     >
-                    Муња деца
+                    Муњице
                     </NavLink>
                     <NavLink
                         exact
