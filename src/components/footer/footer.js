@@ -58,19 +58,20 @@ const Footer = () => {
                 © 2021 Copyright:
                 <br/>
                 Д.Г.<a className="text-dark" 
-                href="https://www.instagram.com/dusan_galic95/"
+                href="https://rs.linkedin.com/in/dusan-galic-ab937b1ab"
                 target="_blank">
-                <img className = "ikon" src="../instagram.svg"  alt="Munja instagram" height="30px" width="30px" />
+                <img className = "ikon" src="../in.svg"  alt="dusanln" height="30px" width="30px" />
                 </a>
                 М.Ј.<a className="text-dark" 
+
                 href="https://www.instagram.com/marina.jevtovic/?hl=sr"
                 target="_blank">
-                <img className = "ikon" src="../instagram.svg"  alt="Munja instagram" height="30px" width="30px" />
+                 <img className = "ikon" src="../in.svg"  alt="marinaln" height="30px" width="30px" />
                 </a>
                 О.Г.<a className="text-dark" 
                 href="https://www.instagram.com/ognjenngalic/"
                 target="_blank">
-                <img className = "ikon" src="../instagram.svg"  alt="Munja instagram" height="30px" width="30px" />
+                <img className = "ikon" src="../instagram.svg"  alt="ognjeninstagram" height="30px" width="30px" />
                 </a>
             </div>
             </footer>
