@@ -11,7 +11,7 @@ const OKlubu = () => {
             </div>
             <div className="row">
                 <div className="col-lg-4 takst">
-                    <ul>
+                    <ul style={{"list-style-type": "none"}}>
                         <li>Име клуба: ФК Муња Барич</li>
                         <li>Адреса клуба: Обреновачки пут 100, 11504 Барич</li>
                         <li>Датум оснивања: --------</li>
