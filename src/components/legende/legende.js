@@ -5,14 +5,14 @@ const Legende = () => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-lg-12 legende">
+                <div className="col-lg-12 oklubu">
                     <h3>Легенде клуба:</h3>
                 </div>
             </div>
             <div className="row">
-                <div className="col-lg-6">
+                <div className="col-lg-12 col-md-12 col-12">
                     <p className="misa">Миша Тумбас (19** - 2020)</p>
-                    <img className = "ikon" src="./misa.jpg"  alt="MisaTumbas" width="600px" />
+                    <img className = "ikon leg" src="./misa.jpg"  alt="MisaTumbas" width="600px" />
                 </div>
             </div>
         </div>

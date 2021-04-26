@@ -54,8 +54,8 @@ const Prijatelji = () => {
             <div className="row">                    
                 {
                     Object.keys(sponzor).map((key, i) => (
-                        <div className="col-lg-2 col-3">
-                            <img className = "ikon" src={sponzor[key]}  alt={sponzor[i]} width="100px" />
+                        <div className="col-lg-2 col-md-3 col-4" id={sponzor[i]}>
+                            <img className="ikon" src={sponzor[key]}  alt={sponzor[i]} width="100px" />
                         </div>
                     )
                 )}

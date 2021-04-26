@@ -6,3 +6,9 @@ div.takmicenje {
 h4 {
     color: white;
 }
+
+@media (max-width: 500px) {
+    iframe {
+        width: 300px;
+    }
+}
