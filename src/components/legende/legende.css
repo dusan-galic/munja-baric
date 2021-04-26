@@ -5,3 +5,15 @@ div.legende {
 p.misa {
     color: white;
 }
+
+@media (max-width: 800px) {
+    img.leg {
+        width: 500px;
+    }
+}
+
+@media (max-width: 500px) {
+    img.leg {
+        width: 300px;
+    }
+}

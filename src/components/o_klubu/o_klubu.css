@@ -9,10 +9,34 @@ div.oklubu {
     padding-bottom: 30px;
 }
 
+ul {
+    padding-left: 0px;
+}
+
 li {
     padding: 5px;
 }
 
 img.ikon{
     padding-top: 10px;
+}
+
+
+
+@media (max-width: 1000px) {
+    #munja_video {
+        width: 600px;
+    }
+}
+
+@media (max-width: 800px) {
+    #munja_video {
+        width: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    #munja_video {
+        width: 200px;
+    }
 }

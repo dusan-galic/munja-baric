@@ -10,7 +10,7 @@ const Takmicenja = () => {
                 </div>
             </div>
             <div className="row takmicenje">
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-md-12 col-12">
                     <iframe width="500" height="315" 
                         src="https://www.youtube.com/embed/ODsOheK9zZQ" 
                         title="YouTube video player" 
@@ -19,7 +19,7 @@ const Takmicenja = () => {
                         allowFullScreen>
                     </iframe>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-md-12 col-12">
                     <h4>Општинска лига Обреновац</h4>
                     <a href="http://www.fsb.org.rs/opstinska-liga-obrenovac?todo=edit&file=opstinska_liga_obrenovac.l98"
                     target="_blank">
