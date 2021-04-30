@@ -21,7 +21,8 @@ const Takmicenja = () => {
                 </div>
                 <div className="col-lg-6 col-md-12 col-12">
                     <h4>Општинска лига Обреновац</h4>
-                    <a href="http://www.fsb.org.rs/opstinska-liga-obrenovac?todo=edit&file=opstinska_liga_obrenovac.l98"
+                    <a className="tabela"
+                    href="http://www.fsb.org.rs/opstinska-liga-obrenovac?todo=edit&file=opstinska_liga_obrenovac.l98"
                     target="_blank">
                         Табела
                     </a>

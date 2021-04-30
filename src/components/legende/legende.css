@@ -6,13 +6,17 @@ p.misa {
     color: white;
 }
 
+p.misa:hover {
+    color: yellow;
+}
+
 @media (max-width: 800px) {
     img.leg {
         width: 500px;
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     img.leg {
         width: 300px;
     }

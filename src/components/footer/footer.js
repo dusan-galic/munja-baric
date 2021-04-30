@@ -23,21 +23,18 @@ const Footer = () => {
                     <ul className="list-unstyled mb-0">
                     <li>
                         <a href="http://localhost:3000/galerija"
-                         target="_blank"
                          className="text-dark">
                              Галерија
                         </a>
                     </li>
                     <li>
                         <a href="http://localhost:3000/kids"
-                        target="_blank"
                         className="text-dark">
                             Муњице
                         </a>
                     </li>
                     <li>
-                        <a href="http://localhost:3000/shop" 
-                        target="_blank"
+                        <a href="http://localhost:3000/shop"
                         className="text-dark">
                             Продавница
                         </a>
