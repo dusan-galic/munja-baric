@@ -17,11 +17,13 @@ li {
     padding: 5px;
 }
 
+li:hover {
+    color: yellow;
+}
+
 img.ikon{
     padding-top: 10px;
 }
-
-
 
 @media (max-width: 1000px) {
     #munja_video {

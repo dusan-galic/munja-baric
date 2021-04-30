@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import './prijatelji.css';
 
 const Prijatelji = () => {
@@ -53,9 +53,9 @@ const Prijatelji = () => {
             </div>
             <div className="row">                    
                 {
-                    Object.keys(sponzor).map((key, i) => (
-                        <div className="col-lg-2 col-md-3 col-4" id={sponzor[i]}>
-                            <img className="ikon" src={sponzor[key]}  alt={sponzor[i]} width="100px" />
+                    Object.keys(sponzor).map((key) => (
+                        <div className="col-lg-2 col-md-3 col-4 sponzor" key={sponzor[key]}>
+                            <img className="ikon" src={sponzor[key]}  alt={sponzor[key]} width="100px" />
                         </div>
                     )
                 )}
