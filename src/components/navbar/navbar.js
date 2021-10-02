@@ -31,22 +31,6 @@ const Header = () => {
                     >
                     Галерија
                     </NavLink>
-                    <NavLink
-                        exact
-                        activeClassName="navbar__link--active"
-                        className="nav-link nav-link-ime"
-                        to="/kids"
-                    >
-                    Муњице
-                    </NavLink>
-                    <NavLink
-                        exact
-                        activeClassName="navbar__link--active"
-                        className="nav-link nav-link-ime"
-                        to="/shop"
-                    >
-                    Муња продавница
-                    </NavLink>
 
                         {/*<li className="nav-item">
                             <a className="nav-link nav-link-ime active" href="#oklubu">Клуб</a>
