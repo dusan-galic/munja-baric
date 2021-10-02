@@ -10,6 +10,10 @@ p.misa:hover {
     color: yellow;
 }
 
+img.leg:hover {
+    border: 5px solid yellow;
+}
+
 @media (max-width: 800px) {
     img.leg {
         width: 500px;
