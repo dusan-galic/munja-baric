@@ -15,21 +15,21 @@ const Slide = () => {
                         <img src="../navijaci.jpg" className="d-block w-100 img-fluid slide" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
                             <h5 className="naslov">ФК МУЊА БАРИЧ</h5>
-                            <p className="naslov-opis">Нека реченица</p>
+                            <p className="naslov-opis">Наши навијачи</p>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <img src="../igraci.jpg" className="d-block w-100 img-fluid slide" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
                             <h5 className="naslov">ФК МУЊА БАРИЧ</h5>
-                            <p className="naslov-opis">Нека реченица</p>
+                            <p className="naslov-opis">Наши играчи</p>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="../jevdja.jpg" className="d-block w-100 img-fluid slide" alt="..." />
+                        <img src="../galerija/IMG_00J.jpeg" className="d-block w-100 img-fluid slide" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
                             <h5 className="naslov">ФК МУЊА БАРИЧ</h5>
-                            <p className="naslov-opis">Нека реченица</p>
+                            <p className="naslov-opis">Наша деца</p>
                         </div>
                     </div>
                 </div>
