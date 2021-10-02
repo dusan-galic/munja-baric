@@ -8,7 +8,7 @@ const Slide = () => {
                 <ol className="carousel-indicators">
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    {/* <li data-target="#carouselExampleCaptions" data-slide-to="2"></li> */}
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -25,13 +25,13 @@ const Slide = () => {
                             <p className="naslov-opis">Наши играчи</p>
                         </div>
                     </div>
-                    <div className="carousel-item">
+                    {/* <div className="carousel-item">
                         <img src="../galerija/IMG_00J.jpeg" className="d-block w-100 img-fluid slide" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
                             <h5 className="naslov">ФК МУЊА БАРИЧ</h5>
                             <p className="naslov-opis">Наша деца</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
