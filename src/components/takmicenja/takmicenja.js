@@ -23,7 +23,8 @@ const Takmicenja = () => {
                     <h4>Општинска лига Обреновац</h4>
                     <a className="tabela"
                     href="http://www.fsb.org.rs/opstinska-liga-obrenovac?todo=edit&file=prva_opstinska_liga_obrenova.l98"
-                    target="_blank">
+                    target="_blank"
+                    rel="noreferrer">
                         Табела
                     </a>
                 </div>

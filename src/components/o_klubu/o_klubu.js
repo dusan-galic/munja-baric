@@ -36,10 +36,10 @@ const OKlubu = () => {
                 </div>
                 <div className="col-lg-4 col-md-12 col-12 takst">
                     <h4>Пратите нас!</h4>
-                    <a className="logoo" href = "https://www.instagram.com/fk_baric_munja/" target="_blank">
+                    <a className="logoo" href = "https://www.instagram.com/fk_baric_munja/" target="_blank" rel="noreferrer">
 						<img className = "ikon" src="../instagram.svg"  alt="Munja instagram" height="40x" width="40px" />
 					</a><br/>
-                    <a className="logoo" href = "https://sr-rs.facebook.com/pages/category/Sports-Team/FK-MUNJA-BARIC-1601073110144717/" target="_blank">
+                    <a className="logoo" href = "https://sr-rs.facebook.com/pages/category/Sports-Team/FK-MUNJA-BARIC-1601073110144717/" target="_blank" rel="noreferrer">
 						<img className = "ikon" src="../facebook.svg"  alt="Munja facebook" height="40x" width="40px" />
 					</a>
                 </div>
