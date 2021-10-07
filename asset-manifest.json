@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/munja-baric/static/css/main.72b566c2.chunk.css",
+    "main.js": "/munja-baric/static/js/main.b78fc422.chunk.js",
+    "main.js.map": "/munja-baric/static/js/main.b78fc422.chunk.js.map",
+    "runtime-main.js": "/munja-baric/static/js/runtime-main.4ae15304.js",
+    "runtime-main.js.map": "/munja-baric/static/js/runtime-main.4ae15304.js.map",
+    "static/js/2.cbdc137c.chunk.js": "/munja-baric/static/js/2.cbdc137c.chunk.js",
+    "static/js/2.cbdc137c.chunk.js.map": "/munja-baric/static/js/2.cbdc137c.chunk.js.map",
+    "static/js/3.4dbcb897.chunk.js": "/munja-baric/static/js/3.4dbcb897.chunk.js",
+    "static/js/3.4dbcb897.chunk.js.map": "/munja-baric/static/js/3.4dbcb897.chunk.js.map",
+    "index.html": "/munja-baric/index.html",
+    "static/css/main.72b566c2.chunk.css.map": "/munja-baric/static/css/main.72b566c2.chunk.css.map",
+    "static/js/2.cbdc137c.chunk.js.LICENSE.txt": "/munja-baric/static/js/2.cbdc137c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ae15304.js",
+    "static/js/2.cbdc137c.chunk.js",
+    "static/css/main.72b566c2.chunk.css",
+    "static/js/main.b78fc422.chunk.js"
+  ]
+}
