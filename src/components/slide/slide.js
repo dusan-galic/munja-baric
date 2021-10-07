@@ -12,7 +12,7 @@ const Slide = () => {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="/navijaci.jpg" className="d-block w-100 img-fluid slide" alt="..." />
+                        <img src={process.env.PUBLIC_URL + '/navijaci.jpg'} className="d-block w-100 img-fluid slide" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
                             <h5 className="naslov">ФК МУЊА БАРИЧ</h5>
                             <p className="naslov-opis">Наши навијачи</p>
