@@ -12,7 +12,7 @@ const Legende = () => {
             <div className="row">
                 <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                     <p className="misa">Миша Тумбас (1954 - 2020)</p>
-                    <img className = "ikon leg" src="./misa.jpg"  alt="MisaTumbas" width="600px" />
+                    <img className = "ikon leg" src={process.env.PUBLIC_URL + "/misa.jpg"} alt="MisaTumbas" width="600px" />
                 </div>
             </div>
         </div>

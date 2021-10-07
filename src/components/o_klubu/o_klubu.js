@@ -12,7 +12,7 @@ const OKlubu = () => {
             <div className="row">
                 <div className="col-lg-12 col-md-12 col-12">
                 <video id="munja_video" width="900px" controls >
-                    <source src="./fkmb_video.mp4" type="video/mp4"/>
+                    <source src={process.env.PUBLIC_URL + "/fkmb_video.mp4"} type="video/mp4"/>
                 </video>
                 </div>
             </div>
@@ -32,15 +32,15 @@ const OKlubu = () => {
                     </ul>
                 </div>
                 <div className="col-lg-4 col-md-12 col-12">
-                <img src="../munja_grb.png" alt="..." />
+                <img src={process.env.PUBLIC_URL + "/munja_grb.png"} alt="..." />
                 </div>
                 <div className="col-lg-4 col-md-12 col-12 takst">
                     <h4>Пратите нас!</h4>
                     <a className="logoo" href = "https://www.instagram.com/fk_baric_munja/" target="_blank" rel="noreferrer">
-						<img className = "ikon" src="../instagram.svg"  alt="Munja instagram" height="40x" width="40px" />
+						<img className = "ikon" src={process.env.PUBLIC_URL + "/instagram.svg"}  alt="Munja instagram" height="40x" width="40px" />
 					</a><br/>
                     <a className="logoo" href = "https://sr-rs.facebook.com/pages/category/Sports-Team/FK-MUNJA-BARIC-1601073110144717/" target="_blank" rel="noreferrer">
-						<img className = "ikon" src="../facebook.svg"  alt="Munja facebook" height="40x" width="40px" />
+						<img className = "ikon" src={process.env.PUBLIC_URL + "/facebook.svg"} alt="Munja facebook" height="40x" width="40px" />
 					</a>
                 </div>
             </div>
