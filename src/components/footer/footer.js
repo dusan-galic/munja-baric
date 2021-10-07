@@ -48,6 +48,7 @@ const Footer = () => {
                     <li>
                         <a href="http://www.fsb.org.rs/opstinska-liga-obrenovac?todo=edit&file=prva_opstinska_liga_obrenova.l98" 
                         target="_blank"
+                        rel="noreferrer"
                         className="text-dark">
                             Табела
                         </a>
@@ -62,18 +63,21 @@ const Footer = () => {
                 <br/>
                 Д.Г.<a className="text-dark" 
                 href="https://rs.linkedin.com/in/dusan-galic-ab937b1ab"
-                target="_blank">
+                target="_blank"
+                rel="noreferrer">
                 <img className = "ikon" src="../in.svg"  alt="dusanln" height="30px" width="30px" />
                 </a>
                 М.Ј.<a className="text-dark" 
 
                 href="https://rs.linkedin.com/in/marina-jevtovic-8b8664196"
-                target="_blank">
+                target="_blank"
+                rel="noreferrer">
                  <img className = "ikon" src="../in.svg"  alt="marinaln" height="30px" width="30px" />
                 </a>
                 О.Г.<a className="text-dark" 
                 href="https://www.instagram.com/ognjenngalic/"
-                target="_blank">
+                target="_blank"
+                rel="noreferrer">
                 <img className = "ikon" src="../instagram.svg"  alt="ognjeninstagram" height="30px" width="30px" />
                 </a>
             </div>
