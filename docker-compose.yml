@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  munja_site:
+    container_name: munja_site_frontend
+    build: ./
+    ports:
+        - 3000:3000
+    volumes:
+        - ./:/app
+        - /app/node_modules
+
+  nginx:
+    build: ./nginx
+    ports:
+      - "80:80"
+      - "443-443"
+#    volumes:
+#      - static:/static
+    depends_on:
+      - munja_site
